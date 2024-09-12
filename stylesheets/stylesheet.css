@@ -81,6 +81,29 @@ h3 {
   font-size: 24px;
 }
 
+.heading-sub {
+  font-size: 16px;
+  color: #373737;
+  font-weight: normal;
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  letter-spacing: normal;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 h4 {
   font-size: 21px;
 }
@@ -95,6 +118,7 @@ h6 {
 
 p {
   margin: 10px 0 15px 0;
+  max-width: 640px;
 }
 
 footer p {
@@ -136,7 +160,7 @@ strong {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 739px;
+  max-width: 100%;
   padding: 5px;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
@@ -149,7 +173,7 @@ img {
 }
 
 p img {
-  display: inline;
+  display: block;
   margin: 0;
   padding: 0;
   vertical-align: middle;
@@ -254,6 +278,11 @@ form {
   padding: 20px;
 }
 
+.portfolio-img {
+  display: block;
+  margin: 10px 0 15px;
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
@@ -264,7 +293,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 860px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -366,7 +395,13 @@ Full-Width Styles
   background: #212121;
 }
 
+.text-dark {
+  color: #222222;
+}
 
+.text-thin {
+  font-weight: 400;
+}
 
 /*******************************************************************************
 Small Device Styles
@@ -419,5 +454,4 @@ Small Device Styles
     max-width: 480px;
     font-size: 11px;
   }
-
 }
