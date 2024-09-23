@@ -382,6 +382,7 @@ Full-Width Styles
 
 #header_wrap {
   background: #111827;
+  color: #fff;
 }
 
 #header_wrap .inner {
@@ -465,6 +466,10 @@ Full-Width Styles
 
 #footer_wrap {
   background: #212121;
+}
+
+#footer_wrap p {
+  margin-bottom: 10px;
 }
 
 .text-dark {
