@@ -121,6 +121,12 @@ h3 {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+@media only screen and (max-width: 480px) {
+  .dot {
+    display: none
+  }
+}
+
 .subtle {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -324,10 +330,6 @@ form {
   margin: 10px 0 15px;
   border-radius: 4px;
 }
-
-/*******************************************************************************
-Full-Width Styles
-*******************************************************************************/
 
 .outer {
   width: 100%;
