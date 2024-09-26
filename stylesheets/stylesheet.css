@@ -56,7 +56,7 @@ body {
   color:#373737;
   background: #f2f2f2;
   font-size: 16px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Verdana, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -64,14 +64,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   color:#222222;
-  font-family: Tahoma, Verdana, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h1 {
-  font-family: Tahoma, Verdana, Arial, sans-serif;
   font-size: 42px;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 h2 {
@@ -92,7 +90,6 @@ h3 {
   font-size: 16px;
   color: #373737;
   font-weight: normal;
-  font-family: Helvetica, Arial, sans-serif;
   letter-spacing: normal;
 }
 
@@ -128,7 +125,6 @@ h3 {
 }
 
 .subtle {
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   font-size: 16px;
@@ -155,7 +151,6 @@ h3 {
 
 .small-caps {
   font-size: 16px;
-  font-family: Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: normal;
@@ -308,7 +303,6 @@ table {
  }
 
 th {
-  font-family: Helvetica, Arial, sans-serif;
   padding: 10px;
   background: #373737;
   color: #fff;
