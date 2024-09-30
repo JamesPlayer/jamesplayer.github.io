@@ -123,6 +123,11 @@ h3 {
   }
 }
 
+.intro {
+  max-width: 640px;
+  margin-bottom: 40px;
+}
+
 .subtle {
   font-weight: 500;
   letter-spacing: normal;
