@@ -175,7 +175,7 @@ a {
   text-transform: uppercase;
   font-weight: medium;
   font-size: .875rem;
-  max-width: calc(720px - 2rem);
+  max-width: 720px;
   margin: 0 auto;
   padding: 1rem;
 }
