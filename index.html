@@ -7,303 +7,276 @@
     <meta name="description" content="James Player Curriculum Vitae" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" media="print,screen" href="stylesheets/stylesheet.css?nocache=11">
+    <link rel="stylesheet" type="text/css" media="print,screen" href="stylesheets/stylesheet.css?nocache=12">
 
     <title>James Player</title>
 </head>
 
 <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-            <h1 class="project_title">James Player</h1>
-            <p class="flex flex-start mb-0">
-                <span class="small-caps">
-                    james.player@gmail.com
-                </span>
-                <span class="dot">•</span>
-                <span class="small-caps">
-                    Wellington, New Zealand
-                </span>
-            </p>
-        </header>
+    <div class="header">
+        <h1 class="header__h1">James Player</h1>
+        <p class="header__sub">
+            <a href="mailto:james.player@gmail.com">james.player@gmail.com</a> •
+            <nobr>Snr Software Engineer • </nobr>
+            <nobr>Wellington, New Zealand</nobr>
+        </p>
+        <p class="header__blurb">
+            I’m an experienced Senior Software Engineer who has been building clean, scalable and performant apps for over 16 years. My strengths lie in figuring out a path forward in the face of complex problems, delivering things in a way that others can follow and build on top of, as well as helping team members find their way if needed.
+        </p>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-        <section id="main_content" class="inner">
-            <p class="intro">
-                James has spent the last 16 years creating beautiful, usable and valuable digital
-                experiences. He has led the frontend direction for well known companies such
-                as <a href="https://hootsuite.com">Hootsuite Campaigns</a>,
-                <a href="https://optimalworkshop.com">Optimal Workshop</a>
-                and <a href="https://starboard.nz">Starboard</a>. He thrives on close collaboration with
-                multidisciplinary teams to deliver software that grows businesses and customers love.
-            </p>
+    <div class="experience">
+        <div class="experience__item">
+            <img class="experience__img" alt="Starboard" src="images/starboard.png?nocache=1" />
 
-            <div class="history_item history_item--first">
-                <h3 class="flex mb-0 mt-0">
-                    <span class="flex flex-start">
-                        <a href="https://starboard.nz">Starboard Maritime Intelligence</a>
-                        <span class="dot">•</span>
-                        <span class="small-caps">Senior Software Engineer</span>
-                    </span>
-                    <span class="heading-sub">
-                        2020 - 2024
-                    </span>
+            <div class="experience__text">
+                <h2 class="experience__h2"><a href="https://starboard.nz">Starboard Maritime Intelligence</a></h2>
+                <p class="experience__sub">
+                    <nobr>2020 — 2024 • </nobr>
+                    <nobr>Senior Software Engineer</nobr>
+                </p>
+                <p class="experience__skills">
+                    Go, PostgreSQL, Javascript (React, Redux, Leaflet, IndexedDB), Redis, GraphQL, Google Cloud Platform, Docker, Kubernetes, CSS
+                </p>
+
+                <h3 class="experience__h3">
+                    Backend
                 </h3>
+                <ul class="experience__ul">
+                    <li>Designed and implemented backend APIs for many critical features, key to the company winning a lucrative government contract worth millions of dollars.</li>
+                    <li>Provided guidance to other team members, particularly around graphQL API implementations and database design leading to quicker delivery, significant performance gains and greater scalability.</li>
+                </ul>
 
-                <p class="mt-0">Javascript (React, Redux, Leaflet), Golang, Postgres, GraphQL, Redis, CSS</p>
+                <h3 class="experience__h3">
+                    Frontend
+                </h3>
+                <ul class="experience__ul">
+                    <li>Wrote much of the frontend for Starboard enabling the product to grow from no customers to hundreds of organizations and thousands of users.</li>
+                    <li>Created many coding patterns used by the whole frontend team, providing guidance and education.</li>
+                    <li>Took over the running of the frontend team meetings.</li>
+                </ul>
+            </div>
+        </div>
 
-                <a href="https://starboard.nz" class="portfolio-img">
-                    <img src="images/starboard.png?nocache=1" alt="Starboard">
-                </a>
+        <div class="experience__item">
+            <img class="experience__img" alt="Merge Freeze" src="images/mergefreeze.png?nocache=1" />
 
-                <ul>
-                    <li>
-                        Really enjoyable and challenging problems to solve with so much data (1M+ vessels
-                        and 5,000 new positions received per second!).
+            <div class="experience__text">
+                <h2 class="experience__h2"><a href="https://mergefreeze.com">Merge Freeze</a></h2>
+                <p class="experience__sub">
+                    <nobr>2017 — 2022 • </nobr>
+                    <nobr>Founder</nobr>
+                </p>
+                <p class="experience__skills">
+                    Ruby on Rails, PostgreSQL, Redis, Github and Slack integrations, Heroku, Javascript, CSS
+                </p>
+
+                <ul class="experience__ul">
+                    <li>Built Github and Slack integrations and web app backed by PostgreSQL and Redis.</li>
+                    <li>Launched and scaled to thousands of software developers and hundreds of organizations including many well known companies.</li>
+                    <li>Experimented with AWS Lamda and Serverless Framework to handle any number of Merge Freezing at the same time.</li>
+                    <li>Held customer interviews, responded to support requests, obtained regulatory certifications.</li>
+                    <li>Sold to a US based equity fund in 2022.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience__item">
+            <img class="experience__img" alt="Optimal Workshop" src="images/ow.png?nocache=1" />
+
+            <div class="experience__text">
+                <h2 class="experience__h2"><a href="https://optimalworkshop.com">Optimal Workshop</a></h2>
+                <p class="experience__sub">
+                    <nobr>2017 — 2020 • </nobr>
+                    <nobr>Senior Software Engineer</nobr>
+                </p>
+                <p class="experience__skills">
+                    Ruby on Rails, MySQL, Redis, AWS, Javascript (React, Redux, RxJS), CSS
+                </p>
+
+                <h3 class="experience__h3">
+                    Backend
+                </h3>
+                <ul class="experience__ul">
+                    <li>Architected and implemented the backend of new features, including a newer, faster, more useful version of the platform’s note taking tool.</li>
+                    <li>Refactored the flagship product used by millions of respondents to use a background queue, greatly reducing web server load and response time.</li>
+                    <li>Provided guidance to engineers when planning projects leading to high quality delivery and more confident team members.</li>
+                </ul>
+
+                <h3 class="experience__h3">
+                    Frontend
+                </h3>
+                <ul class="experience__ul">
+                    <li>Introduced React to the dev team and held tutorial workshops, enabling a superior user experience and is now the primary frontend technology used in the product.</li>
+                    <li>Founded and ran the frontend working group, discussing frontend coding standards and architecture.</li>
+                    <li>Lead the frontend development of the second version of the platform’s note taking tool, released to much fanfare.</li>
+                </ul>
+
+                <h3 class="experience__h3">
+                    General
+                </h3>
+                <ul class="experience__ul">
+                    <li>Introduced an adapted version of the “Shape up” method of working as an alternative to agile. This excited the whole team and led to a noticeable increase in delivery cadence.</li>
+                    <li>Was part of a three person leadership team for the engineering team, primarily responsible for team processes.</li>
+                    <li>Mentored two members of the engineering team through the company’s mentor programme.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience__item">
+            <img class="experience__img" alt="Hootsuite Campaigns" src="images/hsc.png?nocache=1" />
+
+            <div class="experience__text">
+                <h2 class="experience__h2"><a href="https://hootsuite.com">Hootsuite</a></h2>
+                <p class="experience__sub">
+                    <nobr>2016 — 2017 • </nobr>
+                    <nobr>Senior Software Developer</nobr>
+                </p>
+                <p class="experience__skills">
+                    Scala, Microservices, MongoDB
+                </p>
+
+                <ul class="experience__ul">
+                    <li>Designed and implemented backend services in microservices architecture for a large scale app sending thousands of social media messages per second.</li>
+                    <li>Provided guidance to junior team members.</li>
+                </ul>
+
+                <h2 class="experience__h2"><a href="https://hootsuite.com">Hootsuite Campaigns</a></h2>
+                <p class="experience__sub">
+                    <nobr>2014 — 2016 • </nobr>
+                    <nobr>Software Developer</nobr>
+                </p>
+                <p class="experience__skills">
+                    PHP, Laravel, MySQL, Python, Redis, Javascript, React, CSS
+                </p>
+
+                <h3 class="experience__h3">
+                    Backend
+                </h3>
+                <ul class="experience__ul">
+                    <li>Led projects for PHP Laravel based app, coaching other team members on best practices.
                     </li>
-                    <li>
-                        Played a key role developing many critical features
-                        including vessel tags and notes, alerting, filtering, user activity
-                        feed, biosecurity risks, organisation groups, authentication and much more.
+                    <li>Maintained Python based microservice for interacting with social network APIs.
                     </li>
-                    <li>
-                        Spearheaded many important architectural decisions from frontend structure to API and
-                        database schema design.
+                    <li>Provided guidance on writing unit tests and set up a structure for writing unit and integration tests.</li>
+                </ul>
+
+                <h3 class="experience__h3">
+                    Frontend
+                </h3>
+                <ul class="experience__ul">
+                    <li>Led frontend direction for whole team, delivering new free and pro product offerings.
                     </li>
-                    <li>
-                        Provided guidance to junior and intermediate engineers, and worked with a great remote team.
+                    <li>Introduced React into the frontend toolset.
                     </li>
                 </ul>
             </div>
+        </div>
 
-            <div class="history_item">
-                <h3 class="flex mb-0">
-                    <span class="flex flex-start">
-                        <a href="https://mergefreeze.com">Merge Freeze</a>
-                        <span class="dot">•</span>
-                        <span class="small-caps">Founder / Developer</span>
-                    </span>
-                    <span class="heading-sub">
-                        2017 - 2022
-                    </span>
-                </h3>
+        <div class="experience__item">
+            <img class="experience__img" alt="Film Hearts" src="images/filmhearts.jpg?nocache=1" />
 
-                <p class="mt-0">Ruby on Rails, Postgres, Redis, Javascript, CSS</p>
-    
-                <a href="https://mergefreeze.com" class="portfolio-img">
-                    <img src="images/mergefreeze.png?nocache=1" alt="Merge Freeze">
-                </a>
+            <div class="experience__text">
+                <h2 class="experience__h2"><a href="https://poundandgrain.com">Pound &amp; Grain</a></h2>
+                <p class="experience__sub">
+                    <nobr>July — November 2014 • </nobr>
+                    <nobr>Software Developer</nobr>
+                </p>
+                <p class="experience__skills">
+                    PHP, Laravel, MySQL, Javascript, CSS
+                </p>
 
-                <ul>
-                    <li>Developed a Github integration to prevent teams from merging and deploying code when they shouldn&apos;t be.</li>
-                    <li>Interesting working with both the Github and Slack APIs, and selling in the Github Marketplace.</li>
-                    <li>Mostly a side project with a brief period of time working on it full time. <a href="https://www.ryanckulp.com/acquiring-merge-freeze/">Sold the business</a> in 2022.</li>
+                <ul class="experience__ul">
+                    <li>Built a PHP Laravel based web application, delivering on time and under budget.</li>
+                    <li>Produced coding standards for the engineering team.</li>
                 </ul>
             </div>
+        </div>
 
-            <div class="history_item">
-                <h3 class="flex mb-0">
-                    <span class="flex flex-start">
-                        <a href="https://optimalworkshop.com">Optimal Workshop</a>
-                        <span class="dot">•</span>
-                        <span class="small-caps">Senior Software Engineer</span>
-                    </span>
-                    <span class="heading-sub">
-                        2017 - 2020
-                    </span>
-                </h3>
-                <p class="mt-0">Ruby on Rails, MySQL, Redis, Javascript (React, Redux, RxJS), CSS</p>
-    
-                <a href="https://optimalworkshop.com" class="portfolio-img">
-                    <img src="images/ow.png?nocache=2" alt="Optimal Workshop">
-                </a>
-    
-                <ul>
-                    <li>Lead the development of the second version of Optimal Workshop&apos;s note taking tool, “Reframer”. This involved introducing React to the dev team and holding tutorial workshops.</li>
-                    <li>Founded and ran the “frontend champions” working group and started the company's first component library.</li>
-                    <li>Introduced an adapted version of the “Shape up” method of working as an alternative to agile.</li>
-                    <li>Was part of a three person leadership team for the Development Faculty, primarily responsible for faculty processes.</li>
-                    <li>Mentored two members of the dev team through the Development Faculty&apos;s mentor programme.</li>
-                </ul>
+        <div class="experience__item experience__item--small">
+            <div class="experience__text">
+                <h2 class="experience__h2"><a href="https://springload.nz">Springload</a></h2>
+                <p class="experience__sub">
+                    <nobr>2011 — 2014 • </nobr>
+                    <nobr>Web Developer</nobr>
+                </p>
+                <p class="experience__skills">
+                    PHP, MySQL, Javascript, CSS
+                </p>
             </div>
+        </div>
 
-            <div class="history_item">
-                <h3 class="flex mb-0">
-                    <span class="flex flex-start">
-                        <a href="https://hootsuite.com">Hootsuite</a>
-                        <span class="dot">•</span>
-                        <span class="small-caps">Senior Software Developer</span>
-                    </span>
-                    <span class="heading-sub">
-                        2014 - 2017
-                    </span>
-                </h3>
-                <p class="mt-0">PHP (Laravel), Scala, Javascript (React, jQuery), MySQL, Redis, CSS</p>
-    
-                <img src="images/hsc.png" class="portfolio-img" alt="Hootsuite Campaigns">
-    
-                <ul>
-                    <li>
-                        Took a lead role in developing the Hootsuite Campaigns Freemium product, including:
-                        <ul>
-                            <li>Designing the frontend architecture and developing coding standards.</li>
-                            <li>Refactoring the backend structure (PHP) to accommodate free, pro and enterprise users.</li>
-                        </ul>
-                    </li>
-                    <li>Introduced React into the Campaigns team&apos;s frontend toolkit.</li>
-                    <li>Investigation and strategy for developing new features in the Hootsuite Publisher Services team (architecture was mainly a collection of Scala microservices). Large scale product (over 15 million users).</li>
-                    <li>Resident expert on Hootsuite Campaigns&apos; Instagram and Twitter scraping service (built in Python).</li>
-                    <li>Mentoring junior members of the team.</li>
-                </ul>
+        <div class="experience__item experience__item--small">
+            <div class="experience__text">
+                <h2 class="experience__h2"><a href="https://anz.co.nz">ANZ National Bank</a></h2>
+                <p class="experience__sub">
+                    <nobr>October 2010 — March 2011 (fixed term) • </nobr>
+                    <nobr>Frontend Developer</nobr>
+                </p>
+                <p class="experience__skills">
+                    Javascript, CSS
+                </p>
             </div>
+        </div>
 
-            <div class="history_item">
-                <h3 class="flex mb-0">
-                        <span class="flex flex-start">
-                            <a href="https://poundandgrain.com/">Pound & Grain</a>
-                            <span class="dot">•</span>
-                            <span class="small-caps">Software Developer</span>
-                        </span>
-                    </span>
-                    <span class="heading-sub">
-                        July - November 2014
-                    </span>
-                </h3>
-                <p class="mt-0">PHP (Laravel), MySQL, CSS</p>
-    
-                <img src="images/filmhearts.jpg" alt="Film Hearts" class="portfolio-img">
-    
-                <ul>
-                    <li>Developed Film Hearts, a dating app for film festival goers.</li>
-                    <li>Created a boilerplate build script and CSS standards for the dev team.</li>
-                    <li>Developed a responsive website for Presenting Our Vision, a charity set up to get disadvantaged youths into the film industry.</li>
-                    <li>Developed a responsive website for the Hudson&apos;s Restaurant and Bar franchise.</li>
-                </ul>
+        <div class="experience__item experience__item--small">
+            <div class="experience__text">
+                <h2 class="experience__h2"><a href="https://springload.nz">Springload</a></h2>
+                <p class="experience__sub">
+                    <nobr>2008 — 2010 • </nobr>
+                    <nobr>Web Developer</nobr>
+                </p>
+                <p class="experience__skills">
+                    PHP, MySQL, Javascript, CSS
+                </p>
             </div>
-
-            <div class="history_item">
-                <h3 class="flex mb-0">
-                        <span class="flex flex-start">
-                            <a href="https://springload.nz/">Springload</a>
-                            <span class="dot">•</span>
-                            <span class="small-caps">Web Developer</span>
-                        </span>
-                    </span>
-                    <span class="heading-sub">
-                        2011 - 2014
-                    </span>
-                </h3>
-                <p class="mt-0">PHP, MySQL, Javascript, CSS</p>
-    
-                <img src="images/hh.jpg" alt="Kiwibank Home Hunter" class="portfolio-img">
-    
-                <ul>
-                    <li>Wrote backend code for numerous challenging projects using a flexible PHP based framework developed in-house.</li>
-                    <li>Worked on responsive websites, web apps, mobile apps and JSON based web services.</li>
-                </ul>
-            </div>
-
-            <div class="history_item">
-                <h3 class="flex mb-0">
-                        <span class="flex flex-start">
-                            <a href="https://anz.co.nz/">ANZ National Bank</a>
-                            <span class="dot">•</span>
-                            <span class="small-caps">Frontend Developer</span>
-                        </span>
-                    </span>
-                    <span class="heading-sub">
-                        October 2010 - March 2011 (fixed term)
-                    </span>
-                </h3>
-                <p class="mt-0">Javascript, CSS</p>
-        
-                <ul>
-                    <li>Provided guidance to the design team regarding important user experience and interface decisions.</li>
-                    <li>Produced white-label CSS for two large Internet banking applications.</li>
-                    <li>Created a large number of Javascript driven prototypes to help the UX team test a range of different user journeys.</li>
-                </ul>
-            </div>
-
-            <div class="history_item">
-                <h3 class="flex mb-0">
-                        <span class="flex flex-start">
-                            <a href="https://springload.nz/">Springload</a>
-                            <span class="dot">•</span>
-                            <span class="small-caps">Frontend Developer</span>
-                        </span>
-                    </span>
-                    <span class="heading-sub">
-                        2008 - 2010
-                    </span>
-                </h3>
-                <p class="mt-0">Javascript, CSS, PHP, MySQL</p>
-        
-                <ul>
-                    <li>Refined my knowledge of front and backend web development. Lead the frontend development on many design-centric projects. A large number of these won design awards.</li>
-                    <li>Built Javascript tools and calculators.</li>
-                    <li>Got into Linux Apache server administration, and wrote a bunch of shell scripts that sped up day-to-day tasks.</li>
-                    <li>Made a large contribution to the Springload blog, with tips, tricks and re-usable code for public consumption.</li>
-                </ul>
-            </div>  
-        </section>
-
-        <section id="education" class="inner">
-            <h2 class="mt-0 subtle">Education</h2>
-
-            <div class="history_item history_item--first">
-                <h3 class="flex mb-0">
-                    <span class="flex flex-start">
-                        <a href="https://wgtn.ac.nz/">Victoria University of Wellington</a>
-                    </span>
-                    <span class="heading-sub">
-                        2010 - 2013 (part-time)
-                    </span>
-                </h3>
-                <p class="small-caps mt-0 mb-0">Graduate Diploma in Science (Partially completed)</p>
-                <p class="mt-0">Major: Computer Science</p>
-            </div>
-
-            <div class="history_item">
-                <h3 class="flex mb-0">
-                    <span class="flex flex-start">
-                        <a href="https://yoobee.ac.nz/">Natcoll School of Design</a>
-                    </span>
-                    <span class="heading-sub">
-                        2007 - 2008
-                    </span>
-                </h3>
-                <p class="mt-0 small-caps">Diploma of Web Development</p>
-            </div>
-
-            <div class="history_item">
-                <h3 class="flex mb-0">
-                    <span class="flex flex-start">
-                        <a href="https://wgtn.ac.nz/">Victoria University of Wellington</a>
-                    </span>
-                    <span class="heading-sub">
-                        2001 - 2004
-                    </span>
-                </h3>
-                <p class="small-caps mt-0 mb-0">Bachelor of Commerce and Administration</p>
-                <p class="mt-0">Major: Marketing, Management</p>
-            </div>
-        </section>
+        </div>
     </div>
 
-    <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-        try {
-            var pageTracker = _gat._getTracker("UA-51346973-1");
-            pageTracker._trackPageview();
-        } catch (err) { }
-    </script>
+    <div class="experience experience--education">
+        <h2 class="experience__minor-heading">Education</h2>
+
+        <div class="experience__item experience__item--small">
+            <div class="experience__text">
+                <h2 class="experience__h2"><a href="https://vuw.ac.nz">Victoria University of Wellington</a></h2>
+                <p class="experience__sub">
+                    <nobr>2013 — 2017 (part time)</nobr>
+                </p>
+                <p class="experience__skills">
+                    Graduate Diploma in Science. Major: Computer Science (partially completed)
+                </p>
+            </div>
+        </div>
+
+        <div class="experience__item experience__item--small">
+            <div class="experience__text">
+                <h2 class="experience__h2"><a href="https://vuw.ac.nz">Natcoll School of Design</a></h2>
+                <p class="experience__sub">
+                    <nobr>2007 — 2008</nobr>
+                </p>
+                <p class="experience__skills">
+                    Diploma of Web Development
+                </p>
+            </div>
+        </div>
+
+        <div class="experience__item experience__item--small">
+            <div class="experience__text">
+                <h2 class="experience__h2"><a href="https://vuw.ac.nz">Victoria University of Wellington</a></h2>
+                <p class="experience__sub">
+                    <nobr>2001 — 2004</nobr>
+                </p>
+                <p class="experience__skills">
+                    Bachelor of Commerce and Administration. Major: Marketing, Management
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
 
 
 </body>
